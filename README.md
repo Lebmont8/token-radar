@@ -1,2 +1,18 @@
-# token-radar
-Offline protocol-launch research dashboard with dated inputs and explicit model assumptions.
+# Token Radar
+An offline protocol-launch research dashboard with explicit comparable IDs, missing-data flags and scenario assumptions.
+
+Node.js 22.18+ or 24; no packages, API keys or wallet are required.
+~~~sh
+node --test test/model.test.ts
+node preview.ts --output /tmp/token-radar-preview
+~~~
+Use an empty output directory, then open its dashboard/index.html. The included 758-record/40-watchlist snapshot was captured on 14 November 2026. It is a dated reference input, not current market data.
+
+The valuation model is conditional circulating-cap research, not FDV, a trading signal, an airdrop probability or a promise of income. Imported names are rendered as text, not HTML.
+
+main.ts can assemble a dossier after you supply exactly three genuine application screenshots in screenshots/. It refuses partially occupied output directories and does not fabricate screenshot evidence.
+
+MIT licensed; the supplied makefun-board helper retains its upstream notice in THIRD_PARTY_NOTICES.md and THIRD_PARTY_LICENSE.txt. No competition entry or accepted result is claimed. Original dashboard/model developed with AI assistance.
+
+## Continuous integration
+A reference GitHub Actions workflow is included at ci/github-actions.yml. To activate it in your own repository, place it under .github/workflows/. Its presence as a reference does not mean hosted CI is enabled or has passed.

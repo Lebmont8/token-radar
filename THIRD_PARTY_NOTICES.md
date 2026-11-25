@@ -1,0 +1,1 @@
+Official vendor/makefun-board.ts is unchanged, SHA9ca51b6e5cd84fe46cb0efa61e2ea99365a1fb0e21f2b75e6007f977f0dc326e. MIT terms retained in THIRD_PARTY_LICENSE.txt. Model, interface and tests independently authored; official starter model/UI are not copied. Sealed snapshot redistributed solely as official task input with exact SHA/source.
