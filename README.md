@@ -1,5 +1,5 @@
 # Token Radar
-An offline protocol-launch research dashboard with explicit comparable IDs, missing-data flags and scenario assumptions.
+Browse a dated protocol snapshot and compare valuation scenarios for projects on the watchlist. The offline dashboard shows which comparable projects were used, where data is missing, and which assumptions drive each estimate.
 
 Node.js 22.18+ or 24; no packages, API keys or wallet are required.
 ~~~sh
